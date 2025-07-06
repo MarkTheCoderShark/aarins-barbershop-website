@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://aarinsbarbershop.com/</loc>
+        <lastmod>2025-07-05T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/hero-barber.jpg</image:loc>
+            <image:caption>Professional barber at Aarins Barbershop</image:caption>
+            <image:title>Aarins Barbershop - Professional Barber Services</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Services Page -->
+    <url>
+        <loc>https://aarinsbarbershop.com/#services</loc>
+        <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://aarinsbarbershop.com/#about</loc>
+        <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/aaron-barber.jpg</image:loc>
+            <image:caption>Aaron, Master Barber at Aarins Barbershop</image:caption>
+            <image:title>Meet Aaron - Your Professional Barber</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Gallery Page -->
+    <url>
+        <loc>https://aarinsbarbershop.com/#gallery</loc>
+        <lastmod>2025-07-05T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-1.jpg</image:loc>
+            <image:caption>Classic fade haircut example</image:caption>
+            <image:title>Professional Haircut Gallery</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-2.jpg</image:loc>
+            <image:caption>Professional beard trim and styling</image:caption>
+            <image:title>Beard Styling Services</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-3.jpg</image:loc>
+            <image:caption>Modern pompadour haircut</image:caption>
+            <image:title>Modern Hairstyles</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-4.jpg</image:loc>
+            <image:caption>Traditional straight razor shave</image:caption>
+            <image:title>Straight Razor Shave Services</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-5.jpg</image:loc>
+            <image:caption>Professional kids haircut</image:caption>
+            <image:title>Kids Haircut Services</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://aarinsbarbershop.com/assets/images/gallery/cut-6.jpg</image:loc>
+            <image:caption>Business professional haircut</image:caption>
+            <image:title>Professional Business Cuts</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://aarinsbarbershop.com/#contact</loc>
+        <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Booking Page (External) -->
+    <url>
+        <loc>https://aarinthebarber.booksy.com</loc>
+        <lastmod>2025-07-05T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+</urlset> 
