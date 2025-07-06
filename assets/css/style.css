@@ -285,45 +285,49 @@ a {
     flex-wrap: wrap;
 }
 
-.hero-stats {
+.hero-reviews {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
     z-index: 2;
     position: relative;
-}
-
-.stat {
-    text-align: center;
-    padding: 2rem 1.5rem;
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 15px;
+    padding: 2rem 3rem;
+    border-radius: 50px;
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     border: 2px solid rgba(212, 165, 116, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.stat:hover {
+.hero-reviews:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 
-.stat-number {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #d4a574;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 0.5rem;
+.review-stars {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.stat-label {
-    font-size: 0.9rem;
+.review-stars i {
+    font-size: 2rem;
+    color: #d4a574;
+    transition: color 0.3s ease;
+}
+
+.review-stars i:hover {
+    color: #b8935a;
+}
+
+.review-text {
+    font-size: 1.2rem;
+    font-weight: 700;
     color: #2c1810;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Section Styles */
@@ -884,15 +888,17 @@ section:not(.hero) .btn-secondary:hover {
         margin-bottom: 2rem;
     }
 
-    .hero-stats {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
+    .hero-reviews {
+        padding: 1.5rem 2.5rem;
     }
 
-    .stat {
-        width: 100%;
-        max-width: 300px;
+    .review-stars i {
+        font-size: 1.8rem;
+    }
+
+    .review-text {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
     }
 
     .services-grid {
@@ -984,12 +990,23 @@ section:not(.hero) .btn-secondary:hover {
         text-align: center;
     }
 
-    .hero-stats {
-        gap: 1rem;
+    .hero-reviews {
+        padding: 1.2rem 2rem;
+        border-radius: 30px;
     }
 
-    .stat {
-        padding: 1.5rem 1rem;
+    .review-stars {
+        gap: 0.3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .review-stars i {
+        font-size: 1.5rem;
+    }
+
+    .review-text {
+        font-size: 1rem;
+        letter-spacing: 1px;
     }
 
     .footer-content {
