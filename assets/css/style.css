@@ -386,9 +386,15 @@ section:not(.hero) .btn-secondary:hover {
 
 .location-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
+}
+
+.hours-card {
+    grid-column: 1 / -1;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .location-card {
@@ -972,6 +978,12 @@ section:not(.hero) .btn-secondary:hover {
         grid-template-columns: 1fr;
     }
 
+    .hours-card {
+        grid-column: 1;
+        max-width: none;
+        margin: 0;
+    }
+
     .location-card {
         height: 140px;
         min-height: 140px;
@@ -1065,6 +1077,12 @@ section:not(.hero) .btn-secondary:hover {
         min-height: 120px;
         padding: 1rem;
         gap: 0.8rem;
+    }
+
+    .hours-card {
+        grid-column: 1;
+        max-width: none;
+        margin: 0;
     }
 
     .location-icon {
